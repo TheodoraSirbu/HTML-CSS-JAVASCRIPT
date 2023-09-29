@@ -24,7 +24,8 @@
     gap: 2rem;
 }
 
-.nav-link, .drop-down li {
+.nav-link,
+.drop-down li {
     list-style: none;
     height: 100%;
     padding: 0.5rem 1rem;
