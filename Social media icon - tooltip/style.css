@@ -114,20 +114,20 @@ body {
 .wrapper .discord:hover,
 .wrapper .discord:hover .tooltip,
 .wrapper .discord:hover .tooltip::before {
-  background: #5865F2;
-  color: #000000;
+    background: #5865F2;
+    color: #000000;
 }
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
-  background: #FF0000;
-  color: #000000;
+    background: #FF0000;
+    color: #000000;
 }
 
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
-  background: #454545;
-  color: #000000;
+    background: #454545;
+    color: #000000;
 }
