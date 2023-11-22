@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url('imagine.jpg');
+}
+
+/* For scrollbar */
+
+/* Width */
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 85px auto 0;
+    background: #ffffff;
+    box-shadow: 0 5px #000;
+}
+
+.container .input-field {
+    position: relative;
+    height: 64px;
+    width: 100%;
+}
+
+.input-field textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    font-size: 400;
+    border-radius: 8px;
+    padding: 18px 45px 18px 15px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.input-field textarea:focus {
+    border-color: #4070f4;
+}
+
