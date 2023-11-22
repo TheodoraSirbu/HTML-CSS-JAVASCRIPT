@@ -1,14 +1,14 @@
 // Getting all required elements
 const inputField = document.querySelector(".input-field textarea"),
-  todoLists = document.querySelector(".todoList"),
-  pendingNum = document.querySelector(".pending-num"),
-  clearButton = document.querySelector(".clear-button");
+todoLists = document.querySelector(".todoList"),
+pendingNum = document.querySelector(".pending-num"),
+clearButton = document.querySelector(".clear-button");
 
-//we will call this function while adding, deleting and checking-unchecking the task
+// We will call this function while adding, deleting and checking-unchecking the task
 function allTasks() {
   let tasks = document.querySelectorAll(".pending");
 
-  //if tasks' length is 0 then pending num text content will be no, if not then pending num value will be task's length
+// If tasks' length is 0 then pending num text content will be no, if not then pending num value will be task's length
   pendingNum.textContent = tasks.length === 0 ? "no" : tasks.length;
 
   let allLists = document.querySelectorAll(".list");
