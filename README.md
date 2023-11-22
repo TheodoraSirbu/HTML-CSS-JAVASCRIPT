@@ -1,1 +1,1 @@
-#### Small projects in HTML, CSS and JAVASCRIPT.
+#### Small projects in HTML, CSS and JavaScript.
